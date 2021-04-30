@@ -84,7 +84,6 @@ header * {
 
 .sidebar .linkstyle .link:hover ~ .underline {
   width: 85%;
-  background-color: #382691;
 }
 
 .sidebar .linkstyle .link:hover {
