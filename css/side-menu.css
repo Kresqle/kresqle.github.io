@@ -49,6 +49,19 @@ header * {
   margin-left: 40px;
 }
 
+.sidebar .linkstyle.sub {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+.sidebar .linkstyle.sub .link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #2b72ed;
+  z-index: 3;
+}
+
 .sidebar .linkstyle .link {
   font-size: 2em;
   text-decoration: none;
