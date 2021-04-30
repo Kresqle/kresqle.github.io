@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/generic.css" />
     <link rel="stylesheet" href="../css/side-menu.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="icon" href="..\src\img\icon.png" />
     <script src="../js/side-menu.js" defer></script>
     <title>Kresqle's website</title>
   </head>
@@ -19,10 +21,68 @@
           <span></span>
           <span></span>
         </div>
-        <div class="sidebar" id="sidebar"></div>
+        <div class="sidebar" id="sidebar">
+          <span class="linkstyle">
+            <a class="link" href="#"></a>
+            <div class="underline"></div>
+          </span>
+        </div>
       </div>
     </header>
 
-    <div class="page" id="page"></div>
+    <div class="page" id="page">
+      <div class="presentation">
+        <img src="..\src\img\icon.jpg" alt="logo" />
+        <div class="text">
+          <h2>Who am I ?</h2>
+          <p>
+            I am a French developer living in Brittany, more specifically
+            towards Rennes.
+          </p>
+          <p>
+            I code mainly in JavaScript, I also know HTML and CSS. I also code
+            in Java and Python at my spare time. I also have some knowledge of
+            TypeScript.
+          </p>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="js project">
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+              alt="JS Logo"
+            />
+          </div>
+          <div class="desc">
+            <h4>JavaScript</h4>
+            <p>See my public JavaScript projects.</p>
+          </div>
+        </div>
+        <div class="java project">
+          <div class="img">
+            <img
+              src="https://freepikpsd.com/wp-content/uploads/2019/10/java-logo-transparent-png-5-Transparent-Images.png"
+              alt="Java Logo"
+            />
+          </div>
+          <div class="desc">
+            <h4>Java</h4>
+            <p>See my public Java projects.</p>
+          </div>
+        </div>
+        <div class="python project">
+          <div class="img">
+            <img src="http://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="Python Logo" />
+          </div>
+          <div class="desc">
+            <h4>Python</h4>
+            <p>See my public Python projects.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

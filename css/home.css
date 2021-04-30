@@ -1,0 +1,91 @@
+.page {
+  position: absolute;
+  margin-top: 10vh;
+  background-color: #131416;
+  height: 90vh;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.page::-webkit-scrollbar {
+  width: 10%;
+}
+
+.page::-webkit-scrollbar-track {
+  background-color: #1c41c7;
+}
+
+.page::-webkit-scrollbar-thumb {
+  background-color: #2b72ed;
+}
+
+.page .presentation {
+  width: 60%;
+  height: 25%;
+  display: flex;
+  flex-flow: row;
+  margin-top: 25px;
+}
+
+.page .presentation .text {
+  padding: 25px;
+}
+
+.page .presentation .text p {
+  margin-top: 10px;
+}
+
+.page .projects {
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.page .projects .project {
+  width: 30%;
+  height: auto;
+  margin-left: 2.5%;
+  margin-top: 1.25%;
+  margin-bottom: 1.25%;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.page .projects .project:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px #2b72ed;
+}
+
+.page .projects .project .img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.page .projects .project .img img {
+  width: 100%;
+  height: auto;
+}
+
+.page .projects .project .desc {
+  transform: translateY(-4px);
+  background-color: #111214;
+  padding: 15px;
+}
+
+.page .projects .project .desc h4 {
+  margin-top: 10px;
+}
+
+.page .projects .project .desc p {
+  margin-top: 10px;
+}
