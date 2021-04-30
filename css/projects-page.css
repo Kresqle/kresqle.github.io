@@ -1,0 +1,66 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page .noprojects {
+  font-size: 2.5rem;
+}
+
+.page .noprojects span {
+  bottom: 43%;
+  left: 14%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  animation: anim 20s reverse infinite;
+}
+
+@keyframes anim {
+  0% {
+    left: 14%;
+    background-color: #2b72ed;
+  }
+  10% {
+    left: 86%;
+    background-color: #2766d4;
+  }
+  20% {
+    left: 14%;
+    background-color: #2159b9;
+  }
+  30% {
+    left: 86%;
+    background-color: #1e51a8;
+  }
+  40% {
+    left: 14%;
+    background-color: #1a4591;
+  }
+  50% {
+    left: 86%;
+    background-color: #1a4591;
+  }
+  60% {
+    left: 14%;
+    background-color: #1a4591;
+  }
+  70% {
+    left: 86%;
+    background-color: #1e51a8;
+  }
+  80% {
+    left: 14%;
+    background-color: #2159b9;
+  }
+  90% {
+    left: 86%;
+    background-color: #2766d4;
+  }
+  100% {
+    left: 14%;
+    background-color: #2b72ed;
+  }
+}
