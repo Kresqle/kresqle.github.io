@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/generic.css" />
     <link rel="stylesheet" href="../css/side-menu.css" />
-    <link rel="stylesheet" href="../css/projects-page.css" />
     <link rel="icon" href="../src/img/icon.png" />
     <script src="../js/side-menu.js" defer></script>
-    <script src="../js/javascript-projects.js" defer></script>
+    <script src="../js/random-text-generator.js" defer></script>
     <title>Kresqle's website</title>
   </head>
   <body>
@@ -55,23 +53,36 @@
     </header>
 
     <div class="page" id="page">
-      <div class="projects">
-        <div class="project" id="randomTextGenerator">
-          <div class="img">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/61b-7%2BcowML.png"
-              alt="dices"
-            />
-          </div>
-          <div class="text">
-            <h2>Random text generator</h2>
-            <p>
-              A simple JavaScript program which generate random quotes from
-              input.
-            </p>
-          </div>
-        </div>
-      </div>
+      <h1>
+        <b>Random Text Generator</b>
+      </h1>
+      <h3>Made by Kresqle</h3>
+      <br />
+      <textarea
+        id="trainSubject"
+        rows="5"
+        cols="45"
+        placeholder="Train the AI with subjects"
+      ></textarea>
+      <textarea
+        id="trainVerb"
+        rows="5"
+        cols="45"
+        placeholder="Train the AI with verbs"
+      ></textarea>
+      <textarea
+        id="trainComplement"
+        rows="5"
+        cols="45"
+        placeholder="Train the AI with complements"
+      ></textarea>
+      <br />
+      <button id="trainButton">Train</button>
+      <br />
+      <br />
+      <textarea id="output" rows="2" cols="50" readonly="readonly"> </textarea>
+      <br />
+      <button id="generateButton">Generate</button>
     </div>
   </body>
 </html>

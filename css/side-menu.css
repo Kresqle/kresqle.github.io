@@ -67,6 +67,7 @@ header * {
   text-decoration: none;
   color: #2b72ed;
   z-index: 3;
+  transition: all 0.5s;
 }
 
 .sidebar .linkstyle .underline {
@@ -75,7 +76,7 @@ header * {
   width: 25%;
   height: 25%;
   border-radius: 10px;
-  bottom: 3px;
+  bottom: -4px;
   left: -4px;
   z-index: 2;
   transition: all 0.5s;
@@ -83,4 +84,9 @@ header * {
 
 .sidebar .linkstyle .link:hover ~ .underline {
   width: 85%;
+  background-color: #382691;
+}
+
+.sidebar .linkstyle .link:hover {
+  color: #382691;
 }
