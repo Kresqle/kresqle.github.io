@@ -5,6 +5,10 @@
   color: whitesmoke;
 }
 
+textarea {
+  color: black;
+}
+
 body {
   background-color: #131416;
 }
