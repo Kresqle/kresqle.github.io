@@ -58,7 +58,8 @@ async function handleInput(e) {
 
   if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
     newTile.waitForTransition(true).then(() => {
-      alert("You lose");
+      alert("You lost");
+      location.reload()
     });
     return;
   }
@@ -209,6 +210,7 @@ async function handleTouchMove(evt) {
   if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
     newTile.waitForTransition(true).then(() => {
       alert("You lost");
+      location.reload()
     });
     return;
   }
