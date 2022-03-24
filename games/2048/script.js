@@ -208,7 +208,7 @@ async function handleTouchMove(evt) {
 
   if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
     newTile.waitForTransition(true).then(() => {
-      alert("You lose");
+      alert("You lost");
     });
     return;
   }
